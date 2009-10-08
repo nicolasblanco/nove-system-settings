@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{nove-system-settings}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["slainer68"]
@@ -28,14 +28,14 @@ Gem::Specification.new do |s|
      "init.rb",
      "lib/nove-system-settings.rb",
      "lib/system_setting.rb",
+     "nove-system-settings.gemspec",
      "spec/nove-system-settings_spec.rb",
      "spec/spec_helper.rb"
   ]
-  s.has_rdoc = true
   s.homepage = %q{http://github.com/slainer68/nove-system-settings}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.2}
+  s.rubygems_version = %q{1.3.5}
   s.summary = %q{Novelys implementation of System Settings stored in Database}
   s.test_files = [
     "spec/nove-system-settings_spec.rb",
