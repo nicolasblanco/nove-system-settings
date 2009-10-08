@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "nove-system-settings"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = "Novelys implementation of System Settings stored in Database"
+    gem.description = "Our implementation of System Settings stored in Database"
     gem.email = "slainer68@gmail.com"
     gem.homepage = "http://github.com/slainer68/nove-system-settings"
     gem.authors = ["slainer68"]
