@@ -10,7 +10,9 @@ class SystemSetting < ActiveRecord::Base
   end
 
   def self.[](name)
-    find_by_name(name)
+    return unless name
+    setting = find_by_name(name)
+    setting.value if setting
   end
 
   def to_f

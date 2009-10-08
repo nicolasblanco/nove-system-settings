@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{nove-system-settings}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["slainer68"]
@@ -26,7 +26,6 @@ Gem::Specification.new do |s|
      "generators/system_settings_migration/system_settings_migration_generator.rb",
      "generators/system_settings_migration/templates/migration.rb",
      "init.rb",
-     "lib/nove-system-settings.rb",
      "lib/system_setting.rb",
      "nove-system-settings.gemspec",
      "spec/nove-system-settings_spec.rb",
